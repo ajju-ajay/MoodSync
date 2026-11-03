@@ -1,0 +1,36 @@
+[
+    {"title":"Happy","artist":"Pharrell Williams","emotion":"Happy","language":"English","genre":"Pop"},
+    {"title":"Can't Stop the Feeling","artist":"Justin Timberlake","emotion":"Happy","language":"English","genre":"Pop"},
+    {"title":"Ilahi","artist":"Arijit Singh","emotion":"Happy","language":"Hindi","genre":"Bollywood"},
+    {"title":"Butta Bomma","artist":"Armaan Malik","emotion":"Happy","language":"Telugu","genre":"Romantic"},
+    {"title":"Vachindamma","artist":"Sid Sriram","emotion":"Happy","language":"Telugu","genre":"Romantic"},
+    {"title":"On Top of the World","artist":"Imagine Dragons","emotion":"Happy","language":"English","genre":"Pop Rock"},
+    {"title":"Perfect","artist":"Ed Sheeran","emotion":"Happy","language":"English","genre":"Romantic"},
+    {"title":"Kesariya","artist":"Arijit Singh","emotion":"Happy","language":"Hindi","genre":"Romantic"},
+    {"title":"Ramuloo Ramulaa","artist":"Anurag Kulkarni","emotion":"Happy","language":"Telugu","genre":"Dance"},
+
+    {"title":"Someone Like You","artist":"Adele","emotion":"Sad","language":"English","genre":"Pop"},
+    {"title":"Channa Mereya","artist":"Arijit Singh","emotion":"Sad","language":"Hindi","genre":"Bollywood"},
+    {"title":"Samajavaragamana","artist":"Sid Sriram","emotion":"Sad","language":"Telugu","genre":"Melody"},
+    {"title":"Tum Hi Ho","artist":"Arijit Singh","emotion":"Sad","language":"Hindi","genre":"Romantic"},
+    {"title":"Let Her Go","artist":"Passenger","emotion":"Sad","language":"English","genre":"Acoustic"},
+    {"title":"Nuvvostanante Nenoddantana","artist":"Devi Sri Prasad","emotion":"Sad","language":"Telugu","genre":"Melody"},
+
+    {"title":"Believer","artist":"Imagine Dragons","emotion":"Angry","language":"English","genre":"Rock"},
+    {"title":"Kar Har Maidaan Fateh","artist":"Sukhwinder Singh","emotion":"Angry","language":"Hindi","genre":"Motivational"},
+    {"title":"Numb","artist":"Linkin Park","emotion":"Angry","language":"English","genre":"Rock"},
+    {"title":"Sultan","artist":"Sukhwinder Singh","emotion":"Angry","language":"Hindi","genre":"Motivational"},
+    {"title":"Dheera Dheera","artist":"Sanjith Hegde","emotion":"Angry","language":"Telugu","genre":"Rock"},
+
+    {"title":"Weightless","artist":"Marconi Union","emotion":"Relaxed","language":"English","genre":"Ambient"},
+    {"title":"Kun Faya Kun","artist":"A.R. Rahman","emotion":"Relaxed","language":"Hindi","genre":"Spiritual"},
+    {"title":"Inkem Inkem Inkem Kaavaale","artist":"Sid Sriram","emotion":"Relaxed","language":"Telugu","genre":"Melody"},
+    {"title":"Night Changes","artist":"One Direction","emotion":"Relaxed","language":"English","genre":"Pop"},
+    {"title":"Agar Tum Saath Ho","artist":"Arijit Singh","emotion":"Relaxed","language":"Hindi","genre":"Melody"},
+    {"title":"The Life of Ram","artist":"Pradeep Kumar","emotion":"Relaxed","language":"Telugu","genre":"Melody"},
+
+    {"title":"Zinda","artist":"Siddharth Mahadevan","emotion":"Motivated","language":"Hindi","genre":"Motivational"},
+    {"title":"Dosti","artist":"Hemachandra","emotion":"Motivated","language":"Telugu","genre":"Motivational"},
+    {"title":"Hall of Fame","artist":"The Script","emotion":"Motivated","language":"English","genre":"Motivational"},
+    {"title":"Aarambh Hai Prachand","artist":"Piyush Mishra","emotion":"Motivated","language":"Hindi","genre":"Motivational"}
+]

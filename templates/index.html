@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>MoodSync - Music Recommender</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+```
+
+</head>
+
+<body>
+
+<header>
+    <h1>🎵 MoodSync</h1>
+    <p>Music that matches your mood</p>
+</header>
+
+<div class="main-container">
+
+```
+<h2>How are you feeling today?</h2>
+
+<p>Select your emotion to discover music.</p>
+
+<form method="POST">
+
+    <label>Select Your Emotion</label>
+
+    <select name="emotion" required>
+
+        <option value="">Choose your mood</option>
+
+        <option value="Happy">😊 Happy</option>
+        <option value="Sad">😢 Sad</option>
+        <option value="Angry">😠 Angry</option>
+        <option value="Relaxed">😌 Relaxed</option>
+        <option value="Motivated">🔥 Motivated</option>
+
+    </select>
+
+    <label>Select Language</label>
+
+    <select name="language">
+
+        <option value="All">All Languages</option>
+        <option value="English">English</option>
+        <option value="Hindi">Hindi</option>
+        <option value="Telugu">Telugu</option>
+
+    </select>
+
+    <button type="submit">
+        Find My Music 🎧
+    </button>
+
+</form>
+
+{% if recommendations %}
+
+<h2 class="result-title">Your Recommended Songs 🎶</h2>
+
+<div class="song-container">
+
+    {% for song in recommendations %}
+
+    <div class="song-card">
+
+        <h3>{{ song.title }}</h3>
+
+        <p>Artist: {{ song.artist }}</p>
+
+        <p>Emotion: {{ song.emotion }}</p>
+
+        <p>Language: {{ song.language }}</p>
+
+        <p>Genre: {{ song.genre }}</p>
+
+        <a href="https://www.youtube.com/results?search_query={{ song.title | urlencode }}+{{ song.artist | urlencode }}"
+           target="_blank"
+           rel="noopener noreferrer">
+            ▶ Listen on YouTube
+        </a>
+
+    </div>
+
+    {% endfor %}
+
+</div>
+
+{% elif selected_emotion %}
+
+<p>No songs found for this selection.</p>
+
+{% endif %}
+```
+
+</div>
+
+<footer>
+    <p>© 2026 MoodSync | Emotion-Based Music Recommender</p>
+</footer>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
